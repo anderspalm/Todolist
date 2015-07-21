@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+.todo_item {
+	opacity: 0.4;
+}
