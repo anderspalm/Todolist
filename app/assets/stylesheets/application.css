@@ -16,3 +16,132 @@
 .todo_item {
 	opacity: 0.4;
 }
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+ 	height: 100%;
+  /*background: linear-gradient(40deg, white 10%, black 100%);*/
+  background-color:rgba(	79, 82, 111,.5);
+  font:14px Georgia, serif;;
+/*  font-size: 1em;*/
+}
+
+.table, .heading_one {
+	  font-family: serif;
+}
+
+.heading_one {
+	font-size: 5em;
+	top: 5em;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+
+
+
+.create a{
+
+    width: 150px;
+    margin-bottom: 2% ;
+	font-family: serif;
+	text-decoration: none;
+	border: 2px solid;
+	border-color: rgba(	79, 82, 111,.5);
+	padding: 2%;
+	 border-radius: 25px;
+	   background-color: #749a02;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+    line-height: 115%;
+}
+
+.create a:hover{
+   background-color: #91bd09;
+  animation-name: greenPulse;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  box-shadow: 20 20 20px #91bd09;
+ }
+
+/* The center consloe begins here*/
+.table {
+	font-size: 2em;
+	top: 15em;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.tables_splitter {
+	background-color: rgba(	238, 238, 238 ,.5);
+	border-radius: 25px;
+	padding-top: 3%;
+	margin-bottom: 3%;
+}
+
+.options {
+	padding-bottom: 5%;
+	 display:block;
+
+    margin: 0 auto;
+}
+
+.options p{
+
+}
+
+p {color: black; font:14px Georgia, serif;}
+
+.user_input p{
+	top: 250px;
+}
+
+.task_description {
+	margin: 0 10% 0 10%;
+}
+
+.user_input p::first-letter{
+	background-color: #666;
+	color: #FFF;
+	font-size: 24px;
+	font-style:normal;
+	display: inline-block;
+	padding: 0 5px;
+	border-radius: 3px;
+	margin-right: 2px;
+	font:14px Georgia, serif;;
+}
+
+.options p{
+	background: white;
+	opacity: 0.4;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid; 
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right:5%; 
+	padding-left:5%;
+}
+
+.options a {
+	text-align: center;
+	text-decoration: none;
+}
+
+.options p:last-child{
+	color: blue;
+	padding-left:5%;
+}
+.options p:first-child {
+	padding-right:5%; 
+} 
